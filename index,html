@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Britto IT | Basic AI & Editing Course</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">Britto<span>IT</span></div>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <a href="#contact" class="nav-btn">Enroll Now</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-content">
+    <p class="tagline">Basic AI & Editing Training</p>
+    <h1>মাত্র <span>৫০০ টাকায়</span> ৫ দিনে শিখুন</h1>
+
+    <p class="hero-text">
+      ঘরে বসে Canva, CapCut, ChatGPT, Google Gemini এবং Google Flow AI-এর বেসিক শিখুন।
+      সাথে পাচ্ছেন ১ মাস যেকোনো সমস্যার full support।
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#courses" class="btn primary">View Course</a>
+      <a href="https://wa.me/8801903713727" class="btn secondary" target="_blank">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div>
+    <h2>৫ দিন</h2>
+    <p>Training</p>
+  </div>
+  <div>
+    <h2>৫০০৳</h2>
+    <p>Course Fee</p>
+  </div>
+  <div>
+    <h2>৫টি</h2>
+    <p>Tools</p>
+  </div>
+  <div>
+    <h2>১ মাস</h2>
+    <p>Support</p>
+  </div>
+</section>
+
+<section id="courses" class="section">
+  <p class="section-subtitle">Our Services</p>
+  <h2>যা যা শিখবেন</h2>
+
+  <div class="course-grid">
+
+    <div class="course-card">
+      <img src="images/canva.jpg" alt="Basic Canva">
+      <h3>Basic Canva</h3>
+      <p>Poster, banner, Facebook post এবং social media design শেখানো হবে।</p>
+    </div>
+
+    <div class="course-card">
+      <img src="images/capcut.jpg" alt="Basic CapCut">
+      <h3>Basic CapCut</h3>
+      <p>Short video edit, reels তৈরি এবং basic video editing শেখানো হবে।</p>
+    </div>
+
+    <div class="course-card">
+      <img src="images/chatgpt.jpg" alt="Basic ChatGPT">
+      <h3>Basic ChatGPT</h3>
+      <p>Content, caption, script, prompt এবং business idea তৈরি শেখানো হবে।</p>
+    </div>
+
+    <div class="course-card">
+      <img src="images/gemini.jpg" alt="Google Gemini Basic">
+      <h3>Google Gemini Basic</h3>
+      <p>Google Gemini দিয়ে smart work এবং AI assistant ব্যবহার শেখানো হবে।</p>
+    </div>
+
+    <div class="course-card">
+      <img src="images/flow-ai.jpg" alt="Google Flow AI Basic">
+      <h3>Google Flow AI Basic</h3>
+      <p>Google Flow AI-এর basic ব্যবহার এবং AI workflow শেখানো হবে।</p>
+    </div>
+
+    <div class="course-card price-card">
+      <h3>Course Fee</h3>
+      <h2>মাত্র ৫০০ টাকা</h2>
+      <p>৫ দিনে basic training + ১ মাস full support।</p>
+      <a href="#contact">Enroll Now →</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="video" class="video-section">
+  <p class="section-subtitle">Course Video</p>
+  <h2>Britto IT Intro Video</h2>
+
+  <video controls muted loop>
+    <source src="videos/intro.mp4" type="video/mp4">
+    Your browser does not support video.
+  </video>
+</section>
+
+<section id="about" class="about">
+  <div class="about-text">
+    <p class="section-subtitle">Why Choose Us</p>
+    <h2>কেন Britto IT?</h2>
+
+    <p>
+      Britto IT beginner-friendly basic training platform। এখানে সহজ ভাষায় practical কাজ শেখানো হয়,
+      যাতে আপনি নিজের কাজ নিজেই করতে পারেন।
+    </p>
+
+    <ul>
+      <li>✔ ঘরে বসে শেখার সুযোগ</li>
+      <li>✔ Beginner friendly guideline</li>
+      <li>✔ Practical class</li>
+      <li>✔ ১ মাস support</li>
+    </ul>
+  </div>
+
+  <div class="about-box">
+    <h3>Start Learning Today</h3>
+    <p>মাত্র ৫০০ টাকায় basic AI & editing skill শেখা শুরু করুন।</p>
+    <a href="#contact" class="btn primary">Join Now</a>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <p class="section-subtitle">Contact</p>
+  <h2>ভর্তির জন্য যোগাযোগ করুন</h2>
+
+  <div class="contact-wrapper">
+
+    <div class="contact-info">
+      <h3>Britto IT</h3>
+      <p>📞 Phone: ০১৯০৩৭১৩৭২৭</p>
+      <p>💬 WhatsApp: ০১৯০৩৭১৩৭২৭</p>
+      <p>✉ Email: info@brittoit.com</p>
+      <p>📍 Location: Bangladesh</p>
+    </div>
+
+    <form onsubmit="sendMessage(event)">
+      <input type="text" placeholder="আপনার নাম" required>
+      <input type="tel" placeholder="মোবাইল নাম্বার" required>
+
+      <select required>
+        <option value="">Course Select করুন</option>
+        <option>Basic Canva</option>
+        <option>Basic CapCut</option>
+        <option>Basic ChatGPT</option>
+        <option>Google Gemini Basic</option>
+        <option>Google Flow AI Basic</option>
+        <option>Full Basic Package - 500৳</option>
+      </select>
+
+      <textarea placeholder="আপনার মেসেজ"></textarea>
+      <button type="submit">Submit Now</button>
+    </form>
+
+  </div>
+</section>
+
+<a href="https://wa.me/8801903713727" class="whatsapp" target="_blank">WhatsApp</a>
+
+<footer>
+  <h3>Britto<span>IT</span></h3>
+  <p>© 2026 Britto IT. All Rights Reserved.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
